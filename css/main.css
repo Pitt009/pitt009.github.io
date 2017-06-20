@@ -1,0 +1,28 @@
+.home{
+  background-image: url("../assets/img/home.jpg");
+  height: 500px;
+  background-position: center;
+  text-align: center;
+  color: #FFF;
+}
+
+.navbar-color{
+  background-color: pink; 
+}
+.subtitulos{
+  margin-top: 0px;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url('../assets/img/parallax.jpg');
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
