@@ -1,28 +1,28 @@
-.home{
-  background-image: url("../assets/img/home.jpg");
-  height: 500px;
-  background-position: center;
-  text-align: center;
-  color: #FFF;
-}
-
-.navbar-color{
-  background-color: pink; 
-}
-.subtitulos{
-  margin-top: 0px;
+body{
+  background-color: #afaaae;
+  box-sizing: border-box;
 }
 
 .parallax {
     /* The image used */
-    background-image: url('../assets/img/parallax.jpg');
+  background-image: url('../assets/img/hom3.jpg');
+  filter: blur(2px);
+  width: 1200px;
+  height: 800px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-    /* Full height */
-    height: 100%; 
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.navbar-color{
+  background-color: #75596f;
+}
+ .navbar-color a {
+   color: #d2c9da;
+ }
+.titulo_home{
+  padding: 10%;
+  margin-top: 0px;
+  z-index: 9999;
 }
