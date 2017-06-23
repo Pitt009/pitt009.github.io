@@ -28,10 +28,14 @@ body{
 .navbar-color{
   background-color: #75596f;
 }
- .navbar-color a {
+ .navbar-color a{
    color: #d2c9da;
  }
 
+.navbar-color li a:hover{
+  background-color: #610c4f;
+  color: #d2c9da;
+}
  .menu{
    background-color: #d2c9da;
  }
@@ -54,6 +58,10 @@ body{
 }
 .btn-color{
   background-color: #610c4f;
+  color: #d2c9da;
+}
+
+.btn-color:hover{
   color: #d2c9da;
 }
 .subtitulo_seccion{
@@ -124,27 +132,7 @@ footer{
 .lista_footer li{
   display: inline-block;
 }
-.progress {
-  height: 35px;
 
-}
-.progress .skill {
-  font: normal 12px "Open Sans Web";
-  line-height: 35px;
-  padding: 0;
-  margin: 0 0 0 20px;
-  text-transform: uppercase;
-}
-.progress .skill .val {
-  float: right;
-  font-style: normal;
-  margin: 0 20px 0 0;
-}
-
-.progress-bar {
-  text-align: left;
-  transition-duration: 3s;
-}
 
 .thumbnail{
   background: #d2c9da;
@@ -167,4 +155,10 @@ footer a:hover{
 footer p{
   font-size: 150%;
   color: #610c4f;
+}
+
+.btn-subir{
+  background-color: #d2c9da;
+  color: #610c4f;
+  width: 10%;
 }
