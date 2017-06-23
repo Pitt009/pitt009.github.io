@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Portafolio</title>
-    <link href="https://fonts.googleapis.com/css?family=Lobster+Two" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Patrick+Hand+SC" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
   </head>
   <body>
     <nav class=" navbar-fixed-top navbar-color">
@@ -27,6 +28,7 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#acerca-mi">Acerca de mí</a></li>
+            <li><a href="#tecnicas">Habilidades Técnicas</a></li>
             <li><a href="#proyectos">Proyectos</a></li>
             <li><a href="#contacto">Contacto</a></li>
           </ul>
@@ -36,45 +38,70 @@
     <section class="container-fluid parallax">
       <div class="row">
         <div class="presentacion col-md-10 col-xs-10">
-          <h1 class="titulo_home col-md-offset-2 col-md-8 col-xs-5">Guadalupe Martínez<br>Front-End Developer Jr</h1>
+          <h1 class="titulo_home text-center col-md-offset-2 col-md-8 col-xs-offset-1 col-xs-10">Guadalupe Martínez<br>Front-End Developer Jr.</h1>
+          <a href="../assets/Guadalupe_Martinez.pdf" download="Guadalupe_Martinez" class="btn btn-color col-md-offset-4 col-md-3 col-sm-offset-3 col-sm-6  col-xs-offset-1 col-xs-10">Descarga mi CV</a>
         </div>
       </div>
     </section>
     <section class="acerca_mi conteiner" id="acerca-mi">
       <div class="row">
         <h2 class="text-center subtitulo_seccion">Acerca de mi </h2>
-        <img src="assets/img/pitt.jpg" alt="foto" class="img-circle img-responsive col-md-offset-1 col-md-3">
-        <p class=" col-md-offset-2 col-md-5 text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-          nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        <img src="assets/img/pitt.jpg" alt="foto" class="img-circle img-responsive col-md-offset-2 col-md-3 col-xs-offset-2 col-xs-8">
+        <p class=" col-md-offset-2 col-md-5 col-xs-offset-1
+         col-xs-10 text-center">Hola soy Guadalupe pero me llaman Pitt. Soy mexicana, me encanta construir, pasar el tiempo con mi familia, jugar videojuegos soy fan de Mario Bros y Play Station. Me encanta codear ya que realizas alguna pagina desde cero y al ver el cambio eso me emociona.
         </p>
       </div>
     </section>
-    <section class="container">
+    <section class="container" id="tecnicas">
       <h2 class="subtitulo_seccion text-center">Habilidades Técnicas</h2>
       <div class="row">
         <div class="col-xs-6 col-md-4">
-            <img src="assets/img/javascript.png" class="imagen_habilidades" alt="...">
-            <span class="col-xs-6 col-md-4">Javascript</span>
+          <div class="contenedor_imagen">
+            <img src="assets/img/js.png" alt="logo_javascript" class="image img-responsive">
+            <div class="overlay">
+              <div class="texto">Javascript</div>
+            </div>
+            </div>
+        </div>
+        <div class="col-xs-4 col-md-4">
+          <div class="contenedor_imagen">
+            <img src="assets/img/html.png" alt="logo_html5" class="image img-responsive">
+            <div class="overlay">
+              <div class="texto">HTML5</div>
+            </div>
+            </div>
         </div>
         <div class="col-xs-6 col-md-4">
-            <img src="assets/img/css3.png" class="imagen_habilidades" alt="...">
-            <span class="col-xs-6 col-md-4">CSS3</span>
+          <div class="contenedor_imagen">
+            <img src="assets/img/css.png" alt="logo_css3" class="image img-responsive">
+            <div class="overlay">
+              <div class="texto">CSS3</div>
+            </div>
+            </div>
         </div>
         <div class="col-xs-6 col-md-4">
-            <img src="assets/img/html5.png" class="imagen_habilidades" alt="...">
-            <span class="col-xs-6 col-md-4">HTML5</span>
+          <div class="contenedor_imagen">
+            <img src="assets/img/github.png" alt="logo_github" class="image img-responsive">
+            <div class="overlay">
+              <div class="texto">GitHub</div>
+            </div>
+            </div>
         </div>
         <div class="col-xs-6 col-md-4">
-            <img src="assets/img/bootstrap.png" class="imagen_habilidades" alt="...">
-            <span class="col-xs-6 col-md-4">Bootstrap</span>
+          <div class="contenedor_imagen">
+            <img src="assets/img/bootstrap1.png" alt="logo_bootstrap" class="image img-responsive">
+            <div class="overlay">
+              <div class="texto">Bootsrap</div>
+            </div>
+            </div>
         </div>
         <div class="col-xs-6 col-md-4">
-            <img src="assets/img/github.png" class="imagen_habilidades" alt="...">
-            <span class="col-xs-6 col-md-4">GitHub</span>
-        </div>
-        <div class="col-xs-6 col-md-4">
-            <img src="assets/img/materialize.png" class="imagen_habilidades" alt="...">
+          <div class="contenedor_imagen">
+            <img src="assets/img/materializecss.png" alt="logo_materialize" class="image img-responsive">
+            <div class="overlay">
+              <div class="texto">Materializecss</div>
+            </div>
+            </div>
         </div>
       </div>
     </section>
@@ -82,53 +109,53 @@
       <h1 class="subtitulo_seccion text-center">Proyectos</h1>
       <div class="row">
         <div class="col-sm-6 col-md-4">
-          <div class="thumbnail">
+          <div class="thumbnail text-center">
             <img src="assets/img/proyecto1.png" alt="Proyecto1">
             <div class="caption">
               <h3>Labcar</h3>
               <p>acerca de una app </p>
-              <a href="http://pitt009.github.io/Lab-ar/" class="btn btn-primary" role="button">Button</a>
+              <a href="http://pitt009.github.io/Lab-ar/" class="btn btn-color" role="button">Ir al proyecto</a>
             </div>
           </div>
         </div>
         <div class="col-sm-6 col-md-4">
-          <div class="thumbnail">
-            <img src="assets/img/proyecto1.png" alt="Proyecto1">
+          <div class="thumbnail text-center">
+            <img src="assets/img/proyecto3.png" alt="Proyecto2">
             <div class="caption">
-              <h3>Labcar</h3>
+              <h3>Amazon</h3>
               <p>acerca de una app </p>
-              <p><a href="https://pitt009.github.io/Canchas_css/" class="btn btn-primary" role="button">Button</a></p>
+              <p><a href="https://pitt009.github.io/amazon_colaborativo/" class="btn btn-color" role="button ">Ir al proyecto</a></p>
             </div>
           </div>
         </div>
         <div class="col-sm-6 col-md-4">
-          <div class="thumbnail">
-            <img src="assets/img/proyecto1.png" alt="Proyecto1">
+          <div class="thumbnail text-center">
+            <img src="assets/img/proyecto2.png" alt="Proyecto3">
             <div class="caption">
-              <h3>Labcar</h3>
+              <h3>Geolocalización</h3>
               <p>acerca de una app </p>
-              <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+              <p><a href="https://pitt009.github.io/Restaurantes_localizacion/" class="btn btn-color" role="button">Ir al proyecto</a>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <section id="contacto">
-      <h2 class="subtitulo_seccion text-center">Contaco</h2>
+    <!--<section id="contacto">
       <form>
         <div class="form-group">
-          <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+          <label for="inputEmail3" class="col-sm-2 control-label">Nombre</label>
           <div class="col-sm-10">
-            <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+            <input type="text" class="form-control" id="inputEmail3" placeholder="Nombre">
           </div>
         </div>
         <div class="form-group">
-          <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+          <label for="inputPassword3" class="col-sm-2 control-label">Email</label>
           <div class="col-sm-10">
-            <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+            <input type="email" class="form-control" id="inputPassword3" placeholder="Email">
           </div>
         </div>
         <div class="form-group">
+          <label for="inputPassword3" class="col-sm-2 control-label">Mensaje</label>
           <div class="col-sm-offset-2 col-sm-10">
             <textarea class="form-control" rows="3"></textarea>
           </div>
@@ -139,15 +166,14 @@
           </div>
         </div>
       </form>
-    </section>
-    <footer>
-      <ul class="lista_footer col-md-7">
+    </section>-->
+    <footer row>
+      <h2 class="subtitulo_seccion text-center">Contacto</h2>
+      <ul class="col-md-offse-4 col-md-12  text-center">
         <a href="https://github.com/Pitt009"><i class="fa fa-github fa-4x" aria-hidden="true"></i></a>
         <a href="https://www.linkedin.com/in/guadalupe-mart%C3%ADnez-guti%C3%A9rrez-7bb392144/"><i class="fa fa-linkedin-square fa-4x" aria-hidden="true"></i></i></a>
       </ul>
-      <ol class="breadcrumb">
-        <li><a href="#">gmartinez28837@gmail.com</a></li>
-      </ol>
+        <p class="text-center">gmartinez28837@gmail.com</p>
     </footer>
     <script src="https://use.fontawesome.com/673caf2ea1.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

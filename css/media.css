@@ -1,0 +1,23 @@
+@media (max-width: 450px) {
+  .parallax{
+    background-image: url("../assets/img/cp.jpg");
+    height: auto;
+    background-position: left;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  .presentacion{
+    padding: 10%;
+    margin-top: 20%;
+  }
+  .titulo_home {
+    font-size: 120%;
+    padding: 10%;
+    margin-top: 20%;
+
+  }
+  .texto{
+    font-size: 120%;
+  }
+
+}
